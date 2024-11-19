@@ -1,0 +1,24 @@
+/* src/components/Home.css */
+.home {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background-color: #121212;
+  height: 100vh; /* Garante que a altura da tela seja de 100% */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha verticalmente ao centro */
+  align-items: center; /* Alinha horizontalmente ao centro */
+  padding-top: 60px; /* Para não sobrepor o Navbar */
+}
+
+.music-recommendations, .playlists {
+  flex-grow: 1; /* Faz com que essas seções ocupem o restante da altura */
+  width: 80%; /* Define a largura das seções */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 20px;
+  background-color: #121212; /* Ajusta as cores conforme necessário */
+}
+
+.playlists {
+  background-color: #181818;
+}

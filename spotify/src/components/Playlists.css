@@ -1,0 +1,34 @@
+/* src/components/Playlists.css */
+.playlists {
+    padding: 20px;
+    background-color: #181818;
+    color: white;
+  }
+  
+  .playlists h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .playlist-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .playlist-item {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .playlist-item img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .playlist-item h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

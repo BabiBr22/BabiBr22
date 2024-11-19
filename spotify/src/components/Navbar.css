@@ -1,0 +1,33 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+    color: white;
+    position: fixed; /* Fixa o Navbar no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* Garante que o Navbar fique por cima de outros elementos */
+    height: 60px; /* Define a altura do Navbar */
+    box-sizing: border-box; /* Inclui a borda e o padding na altura */
+  }
+  
+  .navbar-logo img {
+    width: 120px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #1db954;
+  }
+  

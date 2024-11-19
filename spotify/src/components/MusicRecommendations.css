@@ -1,0 +1,39 @@
+/* src/components/MusicRecommendations.css */
+.music-recommendations {
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .music-recommendations h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .music-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .music-item {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .music-item img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .music-info h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .music-info p {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
